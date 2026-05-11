@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8f8f7;
+  --foreground: #9b8c82;
 }
 
 @theme inline {
@@ -12,15 +12,134 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+h1 {
+  font-family: "Ms Madi", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  color: #452e1f;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-style: regular;
+  display: flex;
+  margin-right: 150px;
+  position: absolute;
+  justify-content: end;
+  top: 170px;
+  right: 100px;
+  color: #707070;
+}
+
+.nav-item {
+  padding-left: 40px;
+}
+
+.nav-sub-item {
+  display: flex;
+  background-color: #f8f8f7;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.logo {
+  display: flex;
+  height: 100px;
+  margin: 50px;
+}
+
+.line {
+  height: 1px;
+  border-bottom: 0.5px solid #9b8c82;
+  position: float;
+  top: -50px;
+  right: 150px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.second-line {
+  height: 1px;
+  border-bottom: 0.5px solid #9b8c82;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.hero-img {
+  border: 0.5px solid #9b8c82;
+  width: 700px;
+}
+
+.booking-button {
+  padding: 15px 50px;
+  border: 0.5px solid #9b8c82;
+  font-family: "Playfair Display", serif;
+  font: 20px;
+  position: absolute;
+  top: 800px;
+  left: 400px;
+  background-color: FFFFFF;
+  cursor: pointer;
+}
+
+.booking-button:hover {
+  border: 1px solid #9b8c82;
+}
+
+.galleryRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryColumn {
+  display: flex;
+}
+
+.galleryImg {
+  width: 300px;
+  padding-top: 100px;
+  margin: 10px;
+}
+
+.quote-section {
+  background-color: #c2b8b0;
+  height: 400px;
+  margin-top: 200px;
+  color: white;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -35,7 +35,12 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
-    "src/app/priser"
+    "src/app/priser",
+    "src/app/tjenester/baby.tsx",
+    "src/app/tjenester/familie.tsx",
+    "src/app/tjenester/portrett.tsx",
+    "src/app/tjenester/baby/page",
+    "src/app/tjenester/portrett/page.tsx"
   ],
   "exclude": [
     "node_modules"
