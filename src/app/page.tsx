@@ -3,6 +3,9 @@ import Hero from "./komponenter/Hero";
 import GalleryCard from "./komponenter/CardsGallery";
 import Quote from "./komponenter/Quote";
 
+import PhotoGallery from "./komponenter/Photogallery";
+import About from "./komponenter/About";
+
 export default function Home() {
   return (
     <>
@@ -10,6 +13,9 @@ export default function Home() {
       <Hero />
       <GalleryCard />
       <Quote />
+      <PhotoGallery />
+      <About />
+      
     </>
   );
 }

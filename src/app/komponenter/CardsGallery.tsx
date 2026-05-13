@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function GalleryCard() {
 
     return (
@@ -5,19 +7,25 @@ export default function GalleryCard() {
     <section className="galleryRow">
       <div className="galleryColumn">
         <div className="cards">
-        <img src="../Tattoo_5.jpg" className="galleryImg" />
-        <h3>Baby & Nyfødt</h3>
-        <button>Lær mer</button>
+        <img src="../eline.jpg" className="galleryImg" />
+        <h4 className="sub-headline">Baby & Nyfødt</h4>
+        <Link href="/tjenester/baby">
+        <button className="second-button">Lær mer</button>
+        </Link>
         </div>
         <div className="cards">
-        <img src="../Tattoo_6.jpg" className="galleryImg" />
-        <h3>Familie</h3>
-        <button>Lær mer</button>
+        <img src="../onthebeach.jpg" className="galleryImg" />
+        <h4 className="sub-headline">Familie</h4>
+        <Link href="/tjenester/familie">
+        <button className="second-button">Lær mer</button>
+        </Link>
         </div>
         <div className="cards">
-        <img src="../Tattoo_24.jpg" className="galleryImg" />
-        <h3>Portrett</h3>
-        <button>Lær mer</button>
+        <img src="../kirsti.jpg" className="galleryImg" />
+        <h4 className="sub-headline"> Portrett</h4>
+        <Link href="/tjenester/portrett">
+        <button className="second-button">Lær mer</button>
+        </Link>
         </div>
         
       </div>

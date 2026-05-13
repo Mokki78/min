@@ -7,7 +7,7 @@ export default function Hero() {
             <div className="hero-text">
         <h1>Portrett fotograf med studio</h1>
         <h1>på Hedrum i Larvik</h1>
-        <h2>Nyfødt, baby, familie og signature portrett</h2>
+        <h3>Nyfødt, baby, familie og signature portrett</h3>
         
         </div>
         <button className="booking-button">Booking</button>

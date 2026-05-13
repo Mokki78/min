@@ -24,7 +24,20 @@ h2 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 20px;
+}
+
+h4 {
+  font-family: "Ms Madi", cursive;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 body {
@@ -128,7 +141,7 @@ nav {
 }
 
 .galleryImg {
-  width: 300px;
+  width: 400px;
   padding-top: 100px;
   margin: 10px;
 }
@@ -138,8 +151,31 @@ nav {
   height: 400px;
   margin-top: 200px;
   color: white;
-  font-size: 100px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.sub-headline {
+  margin-left: 30px;
+}
+
+.second-button {
+  padding: 10px 50px;
+  margin: 15px;
+  border: 0.5px solid #9b8c82;
+  font-family: "Playfair Display", serif;
+  font: 20px;
+  background-color: FFFFFF;
+  cursor: pointer;
+}
+
+.second-button:hover {
+  border: 1px solid #9b8c82;
+}
+
+.gallery {
+  margin: 300px;
 }
