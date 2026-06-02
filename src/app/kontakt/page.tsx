@@ -1,4 +1,4 @@
-import Header from "../komponenter/Header"
+import Header from "@/app/komponenter/Header";
 
 export default function Kontakt() {
 

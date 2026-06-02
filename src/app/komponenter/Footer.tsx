@@ -1,8 +1,28 @@
 export default function Footer() {
+  return (
+    <>
+      <section>
+        <div className="second-line"></div>
+        <div className="flex flex-row">
+        <img src="../Instagram.png" className="icons"></img>
+        <img src="../Facebook(3).png" className="icons"></img>
+        <img src="../MapPin.png" className="icons"></img>
+        <img src="Mail.png" className="icons"></img>
+        <img src="../Phone.png" className="icons"></img>
+        </div>
 
-    return (
-
-        <>
-        </>
-    )
+        <div className="logo-footer">
+          <div>
+          <img
+            src="../logo1.png"
+            className="logo"
+          />
+        </div>
+        <div className="copyright">
+          <p>©Fotograf Monika Sæle 2026</p>
+        </div>
+        </div>
+      </section>
+    </>
+  );
 }

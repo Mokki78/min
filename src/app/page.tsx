@@ -5,6 +5,10 @@ import Quote from "./komponenter/Quote";
 
 import PhotoGallery from "./komponenter/Photogallery";
 import About from "./komponenter/About";
+import Footer from "./komponenter/Footer";
+import ParallexImage from "./komponenter/ParallexImage";
+
+
 
 export default function Home() {
   return (
@@ -15,6 +19,10 @@ export default function Home() {
       <Quote />
       <PhotoGallery />
       <About />
+      <ParallexImage />
+      <Footer />
+      
+      
       
     </>
   );

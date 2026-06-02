@@ -40,7 +40,8 @@
     "src/app/tjenester/familie.tsx",
     "src/app/tjenester/portrett.tsx",
     "src/app/tjenester/baby/page",
-    "src/app/tjenester/portrett/page.tsx"
+    "src/app/tjenester/portrett/page.tsx",
+    "src/app/komponenter/GalleryBaby.tsx"
   ],
   "exclude": [
     "node_modules"

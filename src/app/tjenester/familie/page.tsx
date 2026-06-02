@@ -1,4 +1,5 @@
-import Header from "@/app/komponenter/Header"
+import Header from "@/app/komponenter/Header";
+import HeroFamilie from "@/app/komponenter/Hero_familie";
 
 export default function Familie() {
 
@@ -6,7 +7,8 @@ export default function Familie() {
 
         <>
         <Header />
-        <h1>Familie</h1>
+        <HeroFamilie />
+        
         </>
     )
 }

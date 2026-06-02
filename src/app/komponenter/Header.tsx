@@ -9,8 +9,9 @@ export default function Header() {
 
   return (
     <>
-      <div>
+      <div className="header-top">
         <img src="../logo1.png" className="logo" />
+        <div className="line"></div>
       </div>
 
       <nav>
@@ -45,6 +46,7 @@ export default function Header() {
               </motion.div>
             )}
           </AnimatePresence>
+          </div>
         
           <Link href="/priser" className="nav-item">
             Priser
@@ -53,10 +55,10 @@ export default function Header() {
             Kontakt
           </Link>
          
-        </div>
+     
        
       </nav>
-      <div className="line"></div>
+      
       
     </>
   );

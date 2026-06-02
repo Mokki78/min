@@ -1,13 +1,14 @@
-import Header from "../komponenter/Header"
+import Header from "../../komponenter/Header"
 
-export default function Priser() {
+export default function Ute() {
 
     return (
+
         <>
         <Header />
         <section className="hero-container">
         <div className="hero-text">
-          <h1>Priser</h1>
+          <h1>Utendørsfotografering</h1>
         </div>
         <div>
           <div>
@@ -23,7 +24,9 @@ export default function Priser() {
           </div>
         </div>
       </section>
-  
+
+
+
         </>
     )
 }

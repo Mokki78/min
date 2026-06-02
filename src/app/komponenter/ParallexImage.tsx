@@ -25,7 +25,11 @@ export default function ParallexImage() {
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
-    <section ref={ref} className="relative h-[120vh] overflow-hidden">
+    <>
+    <section
+    ref={ref} 
+     className="relative h-[70vh]
+      overflow-hidden">
       {/* 🖼 Background */}
       <motion.div style={{ y: bgY, scale }} className="absolute inset-0">
         <Image
@@ -43,5 +47,6 @@ export default function ParallexImage() {
         className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4"
       ></motion.div>
     </section>
+    </>
   );
 }

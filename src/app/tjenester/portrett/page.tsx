@@ -1,4 +1,5 @@
 import Header from "@/app/komponenter/Header"
+import HeroPortrett from "@/app/komponenter/Hero_portrett"
 
 export default function Portrett() {
 
@@ -6,7 +7,8 @@ export default function Portrett() {
 
         <>
         <Header />
-        <h1>Signature Portrett</h1>
+        <HeroPortrett />
+      
         </>
     )
 }
