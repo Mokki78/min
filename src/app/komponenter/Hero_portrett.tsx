@@ -2,7 +2,7 @@ export default function HeroPortrett() {
   return (
     <>
       <section className="hero-container">
-        <button className="booking-button">Booking</button>
+       
 
         <div className="hero-text">
           <h1>Signature Portrett</h1>

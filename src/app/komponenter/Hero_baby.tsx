@@ -2,7 +2,7 @@ export default function HeroBaby() {
   return (
     <>
       <section className="hero-container">
-      <button className="booking-button">Booking</button>
+     
         <img src="../home_galleri_4.jpg" className="hero-img" />
         <div className="hero-text">
           <h1>Baby og nyfødt</h1>

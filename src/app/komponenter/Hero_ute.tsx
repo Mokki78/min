@@ -2,7 +2,7 @@ export default function HeroUte() {
     return (
       <>
         <section className="hero-container">
-          <button className="booking-button">Booking</button>
+        
   
           <div className="hero-text">
             <h1>Utendørsfotografering</h1>
