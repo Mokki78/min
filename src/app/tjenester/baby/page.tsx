@@ -1,28 +1,26 @@
 import Header from "@/app/komponenter/Header";
-import Banner from  "@/app/komponenter/Banner";
-import GalleryBaby from "@/app/komponenter/GalleryBaby";
+import PanoImgBaby from "@/app/komponenter/PanoramaImageBaby";
 import Image from "next/image";
 import HeroBaby from "@/app/komponenter/Hero_baby";
 import Produkt2 from "@/app/komponenter/Produkt_2";
 import Footer from "@/app/komponenter/Footer";
 import Quote from "@/app/komponenter/Quote";
-
+import FooterImageBaby from "@/app/komponenter/FooterImageBaby";
 
 export default function Baby() {
   return (
     <>
       <Header />
       <HeroBaby />
-      
-      <Banner />
-      <GalleryBaby />
+      <Quote />
+
       <section className="container py-16 px-6 grid md:grid-cols-2 items-center gap-12">
         {/* Image side */}
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/onthebeach.jpg"
-              alt="Fotograf på stranden"
+              src="/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_2.jpg"
+              alt=""
               width={1000}
               height={800}
               className="w-full h-auto object-cover"
@@ -34,72 +32,68 @@ export default function Baby() {
         <div className="flex justify-center">
           <div className="max-w-md text-center md:text-left">
             <p>
-              Du står fritt til å velge mellom våre à la carte-alternativer og
-              kolleksjoner. Du trenger ikke å ta stilling til hvilke bilder
-              eller produkter du ønsker før bildene er ferdig redigert og klare
-              for visning. Da kan du velge det alternativet som passer best for
-              deg og som du føler gjør bildene rettferdighet. Alle produkter er
-              av høy kvalitet og nøye utvalgt for å møte høye krav til både
-              utførelse og holdbarhet. Målet er å skape minner som kan pryde
-              vegger og hyller i mange år fremover – og som kan gå i arv til
-              kommende generasjoner. Ved kjøp av en kolleksjon har du også
-              mulighet til å bestille tilleggsprodukter, som for eksempel et
-              ekstra minialbum til besteforeldre eller mindre gavebilder til
-              stolte tanter og onkler. Det er også mulig å kjøpe flere digitale
-              bildefiler. Velger du produkter fra à la carte-menyen, tilbys
-              gunstige rabatter ved større bestillinger under bildevisningen..{" "}
+              Jeg elsker de nære, ekte øyeblikkene mellom baby og foreldre, og
+              min stil er enkel, rolig og tidløs. Jeg foretrekker naturlige
+              bilder med lite bruk av rekvisitter og enkle poseringer, gjerne
+              mot en lys eller hvit bakgrunn der fokuset får være på babyen og
+              relasjonen mellom dere. I studio har jeg noen få pledd og små
+              rekvisitter tilgjengelig, men jeg spesialiserer meg ikke på
+              omfattende styling med mange tepper, luer og avanserte poseringer
+              av babyen alene. Dersom du er på jakt etter denne typen
+              nyfødtfotografering, finnes det andre fotografer som vil passe
+              bedre for deg. Hvis du derimot ønsker rolige, følsomme og
+              naturlige bilder med fokus på kjærligheten, nærheten og de første
+              dagene sammen som familie, kan jeg være det rette valget for dere.
+              For meg handler nyfødtfotografering ikke om perfekte poseringer,
+              men om å bevare følelsen av denne helt spesielle tiden – de små
+              fingrene, de varme klemmene og den enorme kjærligheten som fyller
+              rommet når et nytt familiemedlem har kommet til verden.{" "}
             </p>
           </div>
         </div>
       </section>
-      <div className="third-line"></div>
-      <Quote />
+
+      <PanoImgBaby />
 
       <section className="container py-16 px-6 grid md:grid-cols-2 items-center gap-12">
-      
         {/* Text side */}
         <div className="flex justify-center">
           <div className="max-w-md text-center md:text-left">
             <p>
-              Det jeg elsker aller mest med jobben som fotograf, er å få være
-              med på å bevare minner og små øyeblikk som kanskje virker helt
-              hverdagslige der og da, men som med tiden blir uvurderlige. De små
-              hendene som griper etter dine, smilet som mangler en fortann, den
-              varme klemmen eller måten barnet ditt ser på deg akkurat nå –
-              øyeblikk som stadig forandrer seg og aldri kommer tilbake på helt
-              samme måte. Familien vår er noe av det mest verdifulle vi har, og
-              barna vokser ofte langt raskere enn vi er forberedt på. Før vi vet
-              ordet av det, er de små blitt store, og minnene vi trodde vi
-              alltid ville huske, blir gradvis mindre klare. </p>
-              <p>
-              Derfor er fotografier så mye mer enn bare bilder. De er en investering i
-              minner, følelser og historier. De lar oss stoppe tiden et lite
-              øyeblikk og ta vare på det som betyr mest. Med årene kan bildene
-              av barna og familien din bli blant dine mest verdifulle eiendeler
-              – ikke på grunn av hva de er verdt, men på grunn av alt de betyr.
-              Mitt mål er å skape bilder som ikke bare dokumenterer hvordan
-              livet ser ut akkurat nå, men som også vekker følelsene, minnene og
-              kjærligheten til denne tiden i livet – både for deg og for
-              kommende generasjoner.{" "}
+              Fotograferingen kan gjennomføres enten i mitt studio eller hjemme
+              hos dere, hvor vi kan skape vakre minner i trygge og kjente
+              omgivelser. Den beste tiden for nyfødtfotografering er vanligvis
+              innen de første 14 dagene etter fødsel dersom du ønsker bilder av
+              en baby som sover mye. På dette tidspunktet sover de fleste babyer
+              dypere og er ofte lettere å fotografere sovende. Etter de første
+              ukene blir mange babyer mer våkne og oppmerksomme på omgivelsene
+              sine. Dette kan gi nydelige bilder med åpne øyne, uttrykk og mer
+              kontakt med kamera og foreldre.
+        
+               {" "}
             </p>
+            <div>
+              <p>   
+              De viktigste bildene fortjener en vakker innpakning. Her kan du lese mer om mine nøye utvalgte produkter og se hvordan bildene dine kan bli til varige minner på veggen, i album eller som kunstverk til hjemmet. Du finner også full prisliste.</p>
+            </div>
           </div>
         </div>
-          {/* Image side */}
-          <div className="flex justify-center">
+        {/* Image side */}
+        <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/onthebeach.jpg"
-              alt="Fotograf på stranden"
-              width={1000}
-              height={800}
+              src="/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_7.jpg"
+              alt=""
+              width={1200}
+              height={1000}
               className="w-full h-auto object-cover"
             />
           </div>
         </div>
       </section>
-      <div className="third-line"></div>
-      <Produkt2 />
-      
+
+      <FooterImageBaby />
+
       <Footer />
     </>
   );

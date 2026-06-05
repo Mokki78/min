@@ -48,7 +48,7 @@ export default function Familie() {
               ekstra minialbum til besteforeldre eller mindre gavebilder til
               stolte tanter og onkler. Det er også mulig å kjøpe flere digitale
               bildefiler. Velger du produkter fra à la carte-menyen, tilbys
-              gunstige rabatter ved større bestillinger under bildevisningen..{" "}
+              gunstige rabatter ved større bestillinger under bildevisningen.{" "}
             </p>
           </div>
         </div>

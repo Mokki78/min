@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const images = [
   
-  { src: "/home_galleri_2.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_3.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_4.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_6.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_9.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_1.jpg", alt: "Bildegalleri 1" },
+  { src: "/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_4.jpg", alt: "Bildegalleri 1" },
+  { src: "/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_3.jpg", alt: "Bildegalleri 2" },
+  { src: "/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_7.jpg", alt: "Bildegalleri 3" },
+  { src: "/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_5.jpg", alt: "Bildegalleri 4" },
+  { src: "/home_galleri_9.jpg", alt: "Bildegalleri 5" },
+  { src: "/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_16.jpg", alt: "Bildegalleri 6" },
 ];
 
 

@@ -1,4 +1,6 @@
 import Header from "@/app/komponenter/Header";
+import HeroKontakt from "../komponenter/Hero_kontakt";
+import Footer from "../komponenter/Footer";
 
 export default function Kontakt() {
 
@@ -6,7 +8,9 @@ export default function Kontakt() {
 
         <>
         <Header />
-        <h1>Kontakt</h1>
+        <HeroKontakt />
+        <Footer />
+    
         </>
     )
 }
