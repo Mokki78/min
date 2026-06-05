@@ -3,13 +3,17 @@ import Banner from  "@/app/komponenter/Banner";
 import GalleryBaby from "@/app/komponenter/GalleryBaby";
 import Image from "next/image";
 import HeroBaby from "@/app/komponenter/Hero_baby";
+import Produkt2 from "@/app/komponenter/Produkt_2";
+import Footer from "@/app/komponenter/Footer";
+import Quote from "@/app/komponenter/Quote";
+
 
 export default function Baby() {
   return (
     <>
       <Header />
       <HeroBaby />
-      <section></section>
+      
       <Banner />
       <GalleryBaby />
       <section className="container py-16 px-6 grid md:grid-cols-2 items-center gap-12">
@@ -49,6 +53,7 @@ export default function Baby() {
         </div>
       </section>
       <div className="third-line"></div>
+      <Quote />
 
       <section className="container py-16 px-6 grid md:grid-cols-2 items-center gap-12">
       
@@ -93,6 +98,9 @@ export default function Baby() {
         </div>
       </section>
       <div className="third-line"></div>
+      <Produkt2 />
+      
+      <Footer />
     </>
   );
 }

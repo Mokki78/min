@@ -1,17 +1,28 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import CustomHamburger from "./HamburgerMenu";
+
+
 
 export default function Header() {
-  const [open, setOpen] = useState(false);
+ 
+  const [ servicesOpen, setServicesOpen] = useState(false);
+  const [ mobileMenuOpen, setMobileMenuOpen ] = useState(false);
+  const [ mobileServicesOpen, setMobileServicesOpen ] = useState(false);
+
+
 
   return (
     <>
       <div className="header-top">
-        <img src="../logo1.png" className="logo" />
+        <Link href="/">
+        <img src="../logo1.png" className="logo"/>
+        </Link>
         <div className="line"></div>
+     
       </div>
 
       <nav>
@@ -20,14 +31,14 @@ export default function Header() {
         </Link>
         <div
           className="relative"
-          onMouseEnter={() => setOpen(true)}
-          onMouseLeave={() => setOpen(false)}
-          onClick={() => setOpen(!open)}
+          onMouseEnter={() => setServicesOpen(true)}
+          onMouseLeave={() => setServicesOpen(false)}
+          onClick={() => setServicesOpen(!servicesOpen)}
         >
           <button className="cursor-pointer nav-item">Tjenester</button>
 
           <AnimatePresence>
-            {open && (
+            {servicesOpen && (
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -46,20 +57,51 @@ export default function Header() {
               </motion.div>
             )}
           </AnimatePresence>
-          </div>
-        
-          <Link href="/priser" className="nav-item">
+        </div>
+
+        <Link href="/priser" className="nav-item">
+          Priser
+        </Link>
+        <Link href="/kontakt" className="nav-item">
+          Kontakt
+        </Link>
+      </nav>
+      <div className="fixed top-6 right-6 md:hidden z-[9999]">
+        <CustomHamburger isOpen={mobileMenuOpen} setIsOpen={setMobileMenuOpen} />
+      </div>
+
+      {mobileMenuOpen && (
+        <div className="fixed top-0 left-0 w-full z-[9999] md:hidden flex flex-col items-center gap-6 py-10 bg-white text-black ">
+          <Link href="/" onClick={() => setMobileMenuOpen(false)}>
+            Home
+          </Link>
+          <button
+           onClick={() => 
+            setMobileServicesOpen(!mobileServicesOpen)}
+          >
+          Tjenester
+         </button>
+         {mobileServicesOpen && (
+           <div className="flex flex-col pl-6">
+             <Link href="/tjenester/baby">
+               Baby & Nyfødt
+             </Link>
+             <Link href="/tjenester/familie">
+               Familie
+             </Link>
+             <Link href="/tjenester/portrett">
+              Portrett
+             </Link>
+             </div>
+         )}
+          <Link href="/priser" onClick={() => setMobileMenuOpen(false)}>
             Priser
           </Link>
-          <Link href="/kontakt" className="nav-item">
+          <Link href="/kontakt" onClick={() => setMobileMenuOpen(false)}>
             Kontakt
           </Link>
-         
-     
-       
-      </nav>
-      
-      
+        </div>
+     )}
     </>
   );
 }

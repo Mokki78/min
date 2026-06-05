@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
@@ -13,10 +15,12 @@ export default function Footer() {
 
         <div className="logo-footer">
           <div>
+           <Link href="/">
           <img
             src="../logo1.png"
             className="logo"
           />
+          </Link>
         </div>
         <div className="copyright">
           <p>©Fotograf Monika Sæle 2026</p>
