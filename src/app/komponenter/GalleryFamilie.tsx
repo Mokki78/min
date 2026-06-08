@@ -16,7 +16,7 @@ export default function GalleryFamilie() {
     return (
 
         <>
-        <div className="grid grid-cols-2 gap-4 gallery">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 gallery">
           {images.map((img, index) => (
             <div key={index} className="relative aspect-square overflow-hidden">
               <Image

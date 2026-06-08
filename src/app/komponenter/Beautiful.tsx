@@ -3,7 +3,7 @@ export default function Beautiful() {
     return (
 
         <>
-        <section className="banner-beautiful">
+        <section className="quote-section banner">
         <div>
             <p>Be your own kind of beautiful</p>
 

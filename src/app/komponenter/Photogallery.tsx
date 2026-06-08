@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 const images = [
-  
   { src: "/home_galleri_2.jpg", alt: "Bildegalleri 1" },
   { src: "/home_galleri_3.jpg", alt: "Bildegalleri 1" },
   { src: "/home_galleri_4.jpg", alt: "Bildegalleri 1" },
@@ -13,7 +12,7 @@ const images = [
 export default function PhotoGallery() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 gallery">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 gallery">
         {images.map((img, index) => (
           <div key={index} className="relative aspect-square overflow-hidden">
             <Image

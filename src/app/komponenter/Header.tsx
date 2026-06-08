@@ -71,7 +71,7 @@ export default function Header() {
       </div>
 
       {mobileMenuOpen && (
-        <div className="fixed top-0 left-0 w-full z-[9999] md:hidden flex flex-col items-center gap-6 py-10 bg-white text-black ">
+        <div className="fixed top-0 left-0 w-full z-[9999] md:hidden flex flex-col items-center gap-6 py-10 bg-white hamburger-menu">
           <Link href="/" onClick={() => setMobileMenuOpen(false)}>
             Home
           </Link>
@@ -82,7 +82,7 @@ export default function Header() {
           Tjenester
          </button>
          {mobileServicesOpen && (
-           <div className="flex flex-col pl-6">
+           <div className="flex flex-col pl-6 hamburger-sub">
              <Link href="/tjenester/baby">
                Baby & Nyfødt
              </Link>

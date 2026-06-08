@@ -2,7 +2,7 @@
 export default function HeroPriser() {
   return (
     <>
-      <section className="hero-container">
+      <section className="hero-container hero-change">
         <div className="hero-text">
           <h1>Priser</h1>
           <h3>

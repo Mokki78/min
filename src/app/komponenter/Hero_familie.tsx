@@ -1,7 +1,7 @@
 export default function HeroFamilie() {
     return (
       <>
-        <section className="hero-container">
+        <section className="hero-container hero-change ">
        
   
           <div className="hero-text">

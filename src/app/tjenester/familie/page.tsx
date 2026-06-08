@@ -14,7 +14,10 @@ export default function Familie() {
         <>
         <Header />
         <HeroFamilie />
+        <div className="banner">
         <Banner />
+        </div>
+    
         <GalleryFamilie />
      
         <section className="container py-16 px-6 grid md:grid-cols-2 items-center gap-12">

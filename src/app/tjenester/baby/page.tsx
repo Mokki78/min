@@ -2,7 +2,7 @@ import Header from "@/app/komponenter/Header";
 import PanoImgBaby from "@/app/komponenter/PanoramaImageBaby";
 import Image from "next/image";
 import HeroBaby from "@/app/komponenter/Hero_baby";
-import Produkt2 from "@/app/komponenter/Produkt_2";
+
 import Footer from "@/app/komponenter/Footer";
 import Quote from "@/app/komponenter/Quote";
 import FooterImageBaby from "@/app/komponenter/FooterImageBaby";
