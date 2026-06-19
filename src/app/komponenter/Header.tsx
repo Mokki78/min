@@ -5,24 +5,18 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CustomHamburger from "./HamburgerMenu";
 
-
-
 export default function Header() {
- 
-  const [ servicesOpen, setServicesOpen] = useState(false);
-  const [ mobileMenuOpen, setMobileMenuOpen ] = useState(false);
-  const [ mobileServicesOpen, setMobileServicesOpen ] = useState(false);
-
-
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   return (
     <>
       <div className="header-top">
         <Link href="/">
-        <img src="../logo1.png" className="logo"/>
+          <img src="../logo1.png" className="logo" />
         </Link>
         <div className="line"></div>
-     
       </div>
 
       <nav>
@@ -30,7 +24,7 @@ export default function Header() {
           Home
         </Link>
         <div
-          className="relative"
+          className="relative inline-block"
           onMouseEnter={() => setServicesOpen(true)}
           onMouseLeave={() => setServicesOpen(false)}
           onClick={() => setServicesOpen(!servicesOpen)}
@@ -43,7 +37,7 @@ export default function Header() {
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                className="absolute top-full mt-2"
+                className="absolute left-1/2 top-full mt-2 -translate-x-1/2"
               >
                 <Link href="/tjenester/baby" className="nav-sub-item">
                   Baby og Nyfødt
@@ -66,34 +60,39 @@ export default function Header() {
           Kontakt
         </Link>
       </nav>
-      <div className="fixed top-6 right-6 md:hidden z-[9999]">
-        <CustomHamburger isOpen={mobileMenuOpen} setIsOpen={setMobileMenuOpen} />
+
+      <div className="fixed bg-white md:hidden w-full h-25 z-50 top-0 left-0">
+        <div className="fixed top-6 right-2 md:hidden z-[9999]">
+          <Link href="/">
+            <img
+              src="../logo1.png"
+              className="logo-mobile-nav fixed top-6 right-40"
+            />
+          </Link>
+
+          <CustomHamburger
+            isOpen={mobileMenuOpen}
+            setIsOpen={setMobileMenuOpen}
+
+          />
+        </div>
       </div>
 
       {mobileMenuOpen && (
-        <div className="fixed top-0 left-0 w-full z-[9999] md:hidden flex flex-col items-center gap-6 py-10 bg-white hamburger-menu">
+        <div className="fixed top-0 left-0 w-full z-[10000] md:hidden flex flex-col items-center gap-6 py-10 bg-white hamburger-menu">
           <Link href="/" onClick={() => setMobileMenuOpen(false)}>
             Home
           </Link>
-          <button
-           onClick={() => 
-            setMobileServicesOpen(!mobileServicesOpen)}
-          >
-          Tjenester
-         </button>
-         {mobileServicesOpen && (
-           <div className="flex flex-col pl-6 hamburger-sub">
-             <Link href="/tjenester/baby">
-               Baby & Nyfødt
-             </Link>
-             <Link href="/tjenester/familie">
-               Familie
-             </Link>
-             <Link href="/tjenester/portrett">
-              Portrett
-             </Link>
-             </div>
-         )}
+          <button onClick={() => setMobileServicesOpen(!mobileServicesOpen)}>
+            Tjenester
+          </button>
+          {mobileServicesOpen && (
+            <div className="flex flex-col pl-6 hamburger-sub">
+              <Link href="/tjenester/baby">Baby & Nyfødt</Link>
+              <Link href="/tjenester/familie">Familie</Link>
+              <Link href="/tjenester/portrett">Portrett</Link>
+            </div>
+          )}
           <Link href="/priser" onClick={() => setMobileMenuOpen(false)}>
             Priser
           </Link>
@@ -101,7 +100,7 @@ export default function Header() {
             Kontakt
           </Link>
         </div>
-     )}
+      )}
     </>
   );
 }

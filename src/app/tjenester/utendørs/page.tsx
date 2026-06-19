@@ -8,7 +8,7 @@ export default function Ute() {
         <Header />
         <section className="hero-container">
         <div className="hero-text">
-          <h1>Utendørsfotografering</h1>
+          <h1>Utendørskampanje i august-september</h1>
         </div>
         <div>
           <div>
@@ -17,9 +17,7 @@ export default function Ute() {
           </div>
            <div>
             <h3>
-              Har dere en liten på vei, eller har dere en smårolling i hus
-              allerede som dere gjerne skulle fått foreviget før han vokser enda
-              mer.{" "}
+              {" "}
             </h3>
           </div>
         </div>

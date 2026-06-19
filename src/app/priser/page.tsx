@@ -1,5 +1,6 @@
 import Header from "../komponenter/Header";
 import HeroPriser from "../komponenter/Hero_priser";
+import Footer from "../komponenter/Footer";
 
 export default function Priser() {
   return (
@@ -13,6 +14,7 @@ export default function Priser() {
                 
             </div>
         </section>
+        <Footer />
     </>
   );
 }

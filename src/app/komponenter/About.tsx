@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <div className="third-line"></div>
-      <h3 className="sub-header">Litt om fotografen</h3>
+     
 
       <section className="container py-16 px-6 grid md:grid-cols-2 items-center gap-12">
         {/* Image side */}
@@ -22,7 +22,9 @@ export default function About() {
 
         {/* Text side */}
         <div className="flex justify-center">
-          <div className="max-w-md text-center md:text-left">
+          <div className="max-w-md text-left px-5">
+          <h3 className="sub-header">Litt om fotografen</h3>
+            <div>
             <p>
               Det jeg elsker aller mest med jobben som fotograf, er å få være
               med på å bevare minner og små øyeblikk som kanskje virker helt
@@ -35,6 +37,8 @@ export default function About() {
               ordet av det, er de små blitt store, og minnene vi trodde vi
               alltid ville huske, blir gradvis mindre klare.{" "}
             </p>
+            </div>
+            <div className="text-part-two">
             <p>
               Derfor er fotografier så mye mer enn bare bilder. De er en
               investering i minner, følelser og historier. De lar oss stoppe
@@ -46,6 +50,7 @@ export default function About() {
               følelsene, minnene og kjærligheten til denne tiden i livet – både
               for deg og for kommende generasjoner.{" "}
             </p>
+            </div>
           </div>
         </div>
       </section>
