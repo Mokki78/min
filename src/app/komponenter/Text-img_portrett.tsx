@@ -10,7 +10,7 @@ export default function TextAreaPortrett() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/portrettfotograf_singnature-portrett_vestfold_telemark_sandefjord_tønsberg_porsgrunn_larvik_9.jpg"
+              src="/portrettfotograf_larvik_sandefjord_drammen_oslo_tønsberg_signature-portrett.jpg"
               alt="Bilde av dame fotografert i studio"
               width={1000}
               height={800}

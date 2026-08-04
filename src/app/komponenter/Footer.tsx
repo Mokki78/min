@@ -9,25 +9,26 @@ export default function Footer() {
           <Link
             href="https://instagram.com/fotografmonikasaele"
             target="_blank"
+            
             rel="noopener noferrer"
           >
-            <img src="../Instagram.png" className="icons"></img>
+            <img src="../Instagram.png" className="icon glow-button"></img>
           </Link>
           <Link
             href="https://facebook.com/fotografmonikasaele"
             target="_blank"
             rel="noopener noferrer"
           >
-            <img src="../Facebook(3).png" className="icons"></img>
+            <img src="../Facebook(3).png" className="icon glow-button"></img>
           </Link>
           <Link href="">
-            <img src="../MapPin.png" className="icons"></img>
+            <img src="../MapPin.png" className="icon glow-button"></img>
           </Link>
           <Link href="">
-            <img src="../Mail.png" className="icons"></img>
+            <img src="../Mail.png" className="icon glow-button"></img>
           </Link>
           <Link href="">
-            <img src="../Phone.png" className="icons"></img>
+            <img src="../Phone.png" className="icon glow-button"></img>
           </Link>
         </div>
 

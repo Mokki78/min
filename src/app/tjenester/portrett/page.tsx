@@ -58,7 +58,7 @@ export default function Portrett() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/onthebeach.jpg"
+              src="/portrett-fotograf_vestfold_telemark_oslo_buskerud_3.jpg"
               alt="Fotograf på stranden"
               width={1000}
               height={800}

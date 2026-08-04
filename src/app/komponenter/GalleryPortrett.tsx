@@ -6,7 +6,7 @@ const images = [
   { src: "/portrettfotograf_singnature-portrett_vestfold_telemark_sandefjord_tønsberg_porsgrunn_larvik_5.jpg", alt: "Bildegalleri 2" },
   { src: "/portrettfotograf_singnature-portrett_vestfold_telemark_sandefjord_tønsberg_porsgrunn_larvik_6.jpg", alt: "Bildegalleri 3" },
   { src: "/portrettfotograf_singnature-portrett_vestfold_telemark_sandefjord_tønsberg_porsgrunn_larvik_4.jpg", alt: "Bildegalleri 4" },
-  { src: "/portrettfotograf_singnature-portrett_vestfold_telemark_sandefjord_tønsberg_porsgrunn_larvik_3.jpg", alt: "Bildegalleri 5" },
+  { src: "/portrett-fotograf_vestfold_telemark_oslo_buskerud_1.jpg", alt: "Bildegalleri 5" },
   { src: "/portrettfotograf_singnature-portrett_vestfold_telemark_sandefjord_tønsberg_porsgrunn_larvik_2.jpg", alt: "Bildegalleri 6" },
 ];
 
