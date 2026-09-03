@@ -24,8 +24,8 @@ export default function Familie() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/onthebeach.jpg"
-              alt="Fotograf på stranden"
+              src="/familiefotograf_barnefotograf_familiebilder_1.jpg"
+              alt="familie i lek utendørs"
               width={1000}
               height={800}
               className="w-full h-auto object-cover"
@@ -95,8 +95,8 @@ export default function Familie() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/onthebeach.jpg"
-              alt="Fotograf på stranden"
+               src="/familiefotograf_barnefotograf_familiebilder_3.jpg"
+               alt="1 åringen utendørs som utforsker verden"
               width={1000}
               height={800}
               className="w-full h-auto object-cover"
@@ -111,8 +111,8 @@ export default function Familie() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/onthebeach.jpg"
-              alt="Fotograf på stranden"
+          src="/ART_JOURNAL_2.jpg"
+          alt="1 åringen utendørs som utforsker verden"
               width={1000}
               height={800}
               className="w-full h-auto object-cover"
@@ -172,8 +172,8 @@ export default function Familie() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/onthebeach.jpg"
-              alt="Fotograf på stranden"
+                src="/onthebeach.jpg"
+                alt="Fotograf på stranden"
               width={1000}
               height={800}
               className="w-full h-auto object-cover"

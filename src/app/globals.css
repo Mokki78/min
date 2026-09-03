@@ -288,6 +288,58 @@ nav {
   padding: 200px;
 }
 
+.contact-line {
+  height: 1px;
+border-bottom: 0.5px solid #9b8c82;
+margin-right: 70px;
+margin-left: 70px;
+margin-top: 50px;
+margin-bottom: 100px;
+
+
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  margin-top: 50px;
+  margin: 0 auto;
+
+  border: 1px solid rgba(155, 140, 130, 0.6);
+}
+
+.form-control{
+  display: flex;
+  border: 1px solid rgba(155, 140, 130, 0.6);
+  width: 600px;
+ 
+}
+
+.form-group {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: normal;
+  border:rgba(155, 140, 130, 0.6);
+
+
+}
+
+.btn-contact {
+  padding: 15px 50px;
+  border: 0.5px solid #9b8c82;
+  font-family: "Playfair Display", serif;
+  font: 20px;
+  
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  border: 1px solid #9b8c82;
+}
+
 .footer-container {
   padding-top: 50px;
   display: flex;
@@ -300,6 +352,7 @@ nav {
   justify-content: center;
   gap: 20px;
   margin-top: 50px;
+  font-size: 20px;
 }
 
 .glow-button {
@@ -325,8 +378,8 @@ nav {
 
 .icon {
   padding: 2px;
-  font-size: 25px;
-  color: #fff;
+  height: 40px;
+  color: black;
   transform: color 0.3 ease;
 }
 
@@ -342,13 +395,22 @@ nav {
 
 .logo-footer-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+
   padding-top: 100px;
 }
 
 .logo-footer {
-  height: 60px;
+  margin: 0 auto;
+  height: 50px;
+  padding: 40px;
+}
+
+.logo-footer-logo{
+  height: 70px;
+  display: flex;
+  margin-top: 0 auto;
+  align-self: center;
+  justify-content: center;
 }
 
 .opening-hours-container {
@@ -359,6 +421,8 @@ nav {
 }
 
 .open-hours-text {
+  display: flex;
+  margin: 0 auto;
   color: black;
 }
 
@@ -368,8 +432,9 @@ nav {
   align-items: center;
   position: relative;
   bottom: 2px;
-  font-size: 14px;
-  padding-top: 20px;
+  font-size: 16px;
+
+  color: rgba(155, 140, 130, 0.6);
 }
 
 .text-part-two {

@@ -3,11 +3,12 @@ import Image from "next/image";
 const images = [
   
   { src: "/home_galleri_2.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_3.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_4.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_6.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_9.jpg", alt: "Bildegalleri 1" },
-  { src: "/home_galleri_1.jpg", alt: "Bildegalleri 1" },
+  { src: "/home_galleri_3.jpg", alt: "Bildegalleri 2" },
+  { src: "/fotograf_monika_saele_familiebilder_familiefotograf_vestfold_telemark_13.jpg", alt: "Bildegalleri 3" },
+  { src: "/fotograf_monika_saele_familiebilder_familiefotograf_vestfold_telemark_4.jpg", alt: "Bildegalleri 4" },
+  { src: "/fotograf_monika_saele_familiebilder_familiefotograf_vestfold_telemark_12.jpg", alt: "Bildegalleri 5" },
+  { src: "/fotograf_monika_saele_familiebilder_familiefotograf_vestfold_telemark_1.jpg", alt: "Bildegalleri 6" },
+  
 ];
 
 
