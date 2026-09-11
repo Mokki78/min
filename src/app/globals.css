@@ -60,6 +60,7 @@ h2 {
   font-optical-sizing: auto;
   font-style: bold;
   font-size: 35px;
+
 }
 
 h3 {
@@ -97,7 +98,7 @@ nav {
   justify-content: end;
   top: 70px;
   right: 100px;
-  color: #707070;
+  color: #452e1f;
 }
 
 .nav-item {

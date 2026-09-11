@@ -44,7 +44,7 @@ export default function ParallexImage() {
       {/* ✍️ Foreground content */}
       <motion.div
         style={{ y: textY, opacity }}
-        className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4"
+        className="relative z-10 flex h-full flex-col align-items-center justify-center text-center px-4"
       ></motion.div>
     </section>
     </>

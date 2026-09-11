@@ -7,8 +7,7 @@ export default function HeroPriser() {
           <h1>Priser</h1>
           <h3>
             I prislisten finner du både à la carte-alternativer og nøye
-            sammensatte kolleksjoner. Du står fritt til å velge det som passer
-            best for deg og dine ønsker. Du trenger ikke å ta stilling til
+            sammensatte kolleksjoner. Du trenger ikke å ta stilling til
             hvilke bilder eller produkter du ønsker før bildene er ferdig
             redigert og klare for visning. Da får du muligheten til å se det
             endelige resultatet før du bestemmer deg, slik at du kan velge de

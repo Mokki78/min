@@ -1,19 +1,19 @@
-import Header from "../../komponenter/Header"
+import Header from "../komponenter/Header"
 
-export default function Ute() {
+export default function Utendors() {
 
     return (
 
         <>
-        <Header />
-        <section className="hero-container">
+   
+        <section className="">
         <div className="hero-text">
-          <h1>Utendørskampanje i august-september</h1>
+          <h1>Utendørsfotografering i september & oktober</h1>
         </div>
         <div>
           <div>
             {" "}
-            <img src="../kirsti.jpg" className="hero-img" />
+            <img src="../portrettfotograf_familiefotograf_vestfold_telemark_1.jpg" className="hero-img" />
           </div>
            <div>
             <h3>
