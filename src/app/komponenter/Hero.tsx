@@ -5,9 +5,8 @@ export default function Hero() {
     <>
       <section className="hero-container_main">
         <div className="hero-text_main">
-          <h1>Portrett fotograf med studio</h1>
-          <h1>på Hedrum i Larvik</h1>
-          <h3>Nyfødt, baby, familie og signature portrett</h3>
+          <h1>Portrett fotograf med studio på Hedrum i Larvik</h1>
+          <h2>Nyfødt, baby, familie og signature portrett</h2>
           <div className="button-container">
             <Link 
             href="https://fotografmonikasaele15.pixieset.com/booking/"

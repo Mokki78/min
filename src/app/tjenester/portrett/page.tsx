@@ -15,6 +15,7 @@ export default function Portrett() {
       <HeroPortrett />
       <Beautiful />
       <TextAreaPortrett />
+      
       <GalleryPortrett />
 
       <section className="container py-16 px-6 grid md:grid-cols-2 items-center gap-12">
@@ -55,8 +56,8 @@ export default function Portrett() {
           </div>
         </div>
         {/* Image side */}
-        <div className="flex justify-center">
-          <div className="w-full max-w-md">
+        <div className="flex">
+          <div className=" justify-center align-itens-center ">
             <Image
               src="/portrett-fotograf_vestfold_telemark_oslo_buskerud_3.jpg"
               alt="Fotograf på stranden"

@@ -169,8 +169,8 @@ export default function Familie() {
         </div>
 
         {/* Image side */}
-        <div className="flex justify-center">
-          <div className="w-full max-w-md">
+        <div className="flex">
+          <div className=" justify-center align-itens-center ">
             <Image
                 src="/onthebeach.jpg"
                 alt="Fotograf på stranden"

@@ -60,6 +60,7 @@ h2 {
   font-optical-sizing: auto;
   font-style: bold;
   font-size: 35px;
+  color: #9b8c82;
 }
 
 h3 {
@@ -131,6 +132,11 @@ nav {
   height: 100px;
 }
 
+.banner-image {
+  display: flex;
+  margin: 0 auto;
+}
+
 .line {
   flex: 1;
   height: 1px;
@@ -179,12 +185,13 @@ nav {
 .hero-text_main {
   display: flex;
   flex-direction: column;
-  margin-right: 150px;
+  margin-left: 150px;
 }
 
 .hero-img_main {
   border: 0.5px solid #9b8c82;
   width: 700px;
+  margin-right: 100px;
 }
 
 .hero-container {
@@ -218,8 +225,8 @@ nav {
   font-family: "Playfair Display", serif;
   font: 20px;
   position: absolute;
-  top: 700px;
-  left: 300px;
+  top: 770px;
+  left: 350px;
   background-color: white;
   cursor: pointer;
 }
@@ -254,6 +261,7 @@ nav {
   background-color: #c2b8b0;
   height: 400px;
   margin-top: 200px;
+  margin-bottom: 100px;
   color: white;
   font-size: 40px;
   display: flex;
@@ -290,15 +298,12 @@ nav {
 
 .contact-line {
   height: 1px;
-border-bottom: 0.5px solid #9b8c82;
-margin-right: 70px;
-margin-left: 70px;
-margin-top: 50px;
-margin-bottom: 100px;
-
-
+  border-bottom: 0.5px solid #9b8c82;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
-
 
 .contact-form {
   display: flex;
@@ -310,20 +315,17 @@ margin-bottom: 100px;
   border: 1px solid rgba(155, 140, 130, 0.6);
 }
 
-.form-control{
+.form-control {
   display: flex;
   border: 1px solid rgba(155, 140, 130, 0.6);
   width: 600px;
- 
 }
 
 .form-group {
   font-family: "Playfair Display", serif;
   font-size: 16px;
   font-weight: normal;
-  border:rgba(155, 140, 130, 0.6);
-
-
+  border: rgba(155, 140, 130, 0.6);
 }
 
 .btn-contact {
@@ -331,7 +333,6 @@ margin-bottom: 100px;
   border: 0.5px solid #9b8c82;
   font-family: "Playfair Display", serif;
   font: 20px;
-  
   background-color: white;
   cursor: pointer;
 }
@@ -407,7 +408,7 @@ margin-bottom: 100px;
   padding: 40px;
 }
 
-.logo-footer-logo{
+.logo-footer-logo {
   height: 70px;
   display: flex;
   margin-top: 0 auto;
@@ -465,12 +466,12 @@ margin-bottom: 100px;
 .mobile-modal-overlay {
   position: fixed;
   inset: 0;
-  z-index: 2000; 
+  z-index: 2000;
 
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.35)
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .mobile-modal {
@@ -478,12 +479,12 @@ margin-bottom: 100px;
 
   width: 100%;
   max-width: 600px;
-  max-height: 90vh ;
+  max-height: 90vh;
   overflow-y: auto;
   background: white;
   padding: 40px 25px 30px;
 
-  border-radius: 20px 20px 0 0; 
+  border-radius: 20px 20px 0 0;
 }
 
 .modal-close {
@@ -501,7 +502,7 @@ margin-bottom: 100px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; 
+  margin-top: 20px;
   padding: 13px 25px;
   background: #9b8c82;
   color: white;
@@ -512,11 +513,7 @@ margin-bottom: 100px;
 .phone-number {
   font-size: 18px;
   margin-top: 20px;
-
 }
-
-
-
 
 @media screen and (max-width: 800px) {
   .logo-footer-container {
@@ -538,12 +535,53 @@ margin-bottom: 100px;
   }
 }
 
+@media screen and (max-width: 800px) {
+  .hero-container_main {
+    flex-direction: column-reverse;
+    padding: 50px;
+    gap: 50px;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .hero-container {
     flex-direction: column;
     padding: 20px;
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-text_main {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-right: 1px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-img_main {
+    border: 0.5px solid #9b8c82;
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-text {
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-change {
+    flex-direction: column-reverse;
   }
 }
 
@@ -586,14 +624,6 @@ margin-bottom: 100px;
 }
 
 @media screen and (max-width: 800px) {
-  .hero-container_main {
-    flex-direction: column-reverse;
-    padding: 50px;
-    gap: 50px;
-  }
-}
-
-@media screen and (max-width: 800px) {
   h1 {
     font-size: 25px;
   }
@@ -618,28 +648,6 @@ margin-bottom: 100px;
 }
 
 @media screen and (max-width: 800px) {
-  .hero-text_main {
-    flex-direction: column;
-    margin-right: 1px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .hero-text {
-    margin-left: 30px;
-    margin-right: 30px;
-    gap: 10px;
-    padding-top: 10px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .hero-change {
-    flex-direction: column-reverse;
-  }
-}
-
-@media screen and (max-width: 800px) {
   .banner {
     display: none;
   }
@@ -655,12 +663,12 @@ margin-bottom: 100px;
 @media screen and (max-width: 800px) {
   .booking-button {
     position: static;
-    padding: 10px 50px;
+    padding: 10px 150px;
     border: 0.5px solid #9b8c82;
     font-family: "Playfair Display", serif;
     font-size: 16px;
     background-color: FFFFFF;
-    margin-top: 20px;
+    margin-top: 60px;
   }
 }
 
@@ -725,7 +733,6 @@ margin-bottom: 100px;
     height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
   }
 }
 
@@ -736,7 +743,7 @@ margin-bottom: 100px;
 
     box-shadow: 0 0 3px black;
     border-radius: 50%;
-}
+  }
 }
 @media screen and (max-width: 800px) {
   .logo-footer {
@@ -780,8 +787,6 @@ margin-bottom: 100px;
     background-color: white;
 
     z-index: 1000;
-
-    
   }
 }
 

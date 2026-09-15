@@ -9,7 +9,7 @@ export default function FooterImageFamilie() {
         height={500}
         width={1300}
         alt="a boy looking in the camera, photographed outdoors in the summertime."
-        className="py-30 flex justify-content-centre align-items-center"
+        className="banner-image"
         >
 
         </Image>
