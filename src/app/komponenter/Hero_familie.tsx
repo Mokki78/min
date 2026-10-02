@@ -12,7 +12,7 @@ export default function HeroFamilie() {
           </h3>
         </div>
         <img
-          src="../nyfødtfotograf_babyfotografering_barnefotograf_familiebilder_sandefjord_larvik_drammen_tønsberg_porsgrunn_2.jpg"
+          src="../portrettfotograf_familiefotograf_vestfold_telemark_5.jpg"
           className="hero-img"
         />
       </section>
