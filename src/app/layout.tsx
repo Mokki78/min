@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fotograf Monika Sæle sin hjemmeside.",
+  title: "Fotograf Monika Sæle, portrettstudio i Larvik.",
   description: "Portrettstudio på Hedrum i Larvik. Baby, nyfødt, familie og signature portrett",
 };
 

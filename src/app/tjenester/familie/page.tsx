@@ -1,5 +1,3 @@
-
-
 import Header from "@/app/komponenter/Header";
 import HeroFamilie from "@/app/komponenter/Hero_familie";
 import Footer from "@/app/komponenter/Footer";
@@ -95,10 +93,10 @@ export default function Familie() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-               src="/familiefotograf_barnefotograf_familiebilder_3.jpg"
-               alt="1 åringen utendørs som utforsker verden"
+              src="/familiefotograf_barnebilder_babybilder_vestfold_larvik_sandefjord_1.jpg"
+              alt="en mamma som kysser sin lille sønn på hodet."
               width={1000}
-              height={800}
+              height={1200}
               className="w-full h-auto object-cover"
             />
           </div>
@@ -111,8 +109,8 @@ export default function Familie() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-          src="/ART_JOURNAL_2.jpg"
-          alt="1 åringen utendørs som utforsker verden"
+              src="/ART_JOURNAL_2.jpg"
+              alt="1 åringen utendørs som utforsker verden"
               width={1000}
               height={800}
               className="w-full h-auto object-cover"
@@ -169,11 +167,11 @@ export default function Familie() {
         </div>
 
         {/* Image side */}
-        <div className="flex justify-center">
-          <div className="w-full max-w-md">
+        <div className="flex">
+          <div className=" justify-center align-itens-center ">
             <Image
-                src="/onthebeach.jpg"
-                alt="Fotograf på stranden"
+              src="/onthebeach.jpg"
+              alt="Fotograf på stranden"
               width={1000}
               height={800}
               className="w-full h-auto object-cover"
