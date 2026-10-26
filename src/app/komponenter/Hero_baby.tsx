@@ -3,7 +3,7 @@ export default function HeroBaby() {
     <>
       <section className="hero-container">
         <img
-          src="../nyfødtfotograf_babyfotografering_barnefotograf_familiebilder_sandefjord_larvik_drammen_tønsberg_porsgrunn_1.jpg"
+          src="../fotograf-i-larvik_babyfotografering_nyfødtfotografering_vestfold_telemark_2.jpg"
           className="hero-img"
         />
         <div className="hero-text">

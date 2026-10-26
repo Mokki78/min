@@ -19,7 +19,7 @@ export default function Baby() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_2.jpg"
+              src="/fotograf-i-larvik_babyfotografering_nyfødtfotografering_vestfold_telemark_3.jpg"
               alt=""
               width={1000}
               height={800}
@@ -90,7 +90,7 @@ export default function Baby() {
         <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_7.jpg"
+              src="/fotograf-i-larvik_babyfotografering_nyfødtfotografering_vestfold_telemark_4.jpg"
               alt=""
               width={1200}
               height={1000}
@@ -105,7 +105,7 @@ export default function Baby() {
            <div className="flex justify-center">
           <div className="w-full max-w-md">
             <Image
-              src="/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_7.jpg"
+              src="/nyfødtfotografering_babyfotografering_barnefotograf_familiebilder_vestfold_telemark_sandefjord_stokke_larvik_tønsberg_porsgrunn_2.jpg"
               alt=""
               width={1200}
               height={1000}
