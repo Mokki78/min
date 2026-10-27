@@ -119,7 +119,7 @@ export default function Footer() {
               ×
             </button>
 
-            <h2>Finn meg</h2>
+            <h3>Finn meg</h3>
 
             <p>
               Trollsåsveien 934, 3270 Larvik.
@@ -156,7 +156,7 @@ export default function Footer() {
               ×
             </button>
 
-            <h2>Ta kontakt</h2>
+            <h3>Ta kontakt</h3>
 
             <ContactForm />
           </div>
@@ -182,7 +182,7 @@ export default function Footer() {
               ×
             </button>
 
-            <h2>Ring meg</h2>
+            <h3>Ring meg</h3>
 
             <p className="phone-number">
              
