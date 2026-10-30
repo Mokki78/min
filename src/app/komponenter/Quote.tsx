@@ -4,8 +4,8 @@ export default function Quote() {
         <>
         <section className="quote-section">
             <div>
-                <h2>We take photos to have return tickets</h2>
-                <h2>to moments otherwise gone</h2>
+                <h1 id="quote-text">We take photos to have return tickets</h1>
+                <h1 id="quote-text">to moments otherwise gone</h1>
 
             </div>
         </section>

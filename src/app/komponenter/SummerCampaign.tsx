@@ -25,24 +25,21 @@ export default function SummerCampaign() {
     
               {/* Text side */}
               <div className="flex justify-center">
-                <div className="max-w-md text-left px-5 border-1">
-                <h3 className="sub-header">Sommer kampanje</h3>
+                <div className="max-w-md text-left px-5
+
+                 border-1">
+                <h5 className="sub-header">Introduksjonskampanje</h5>
               <p>
-              Som en del av introduksjon av denne portrett typen blir det i
-              hele sommer mulig å få fotografering og et bilde levert som
-              digital bildefil til kun <b>kr 2500,-</b>
+              Som en del av introduksjonen av denne portrettopplevelsen tilbyr jeg fotografering inkludert ett ferdig redigert digitalt bilde til kun <b>kr 2500,-</b> 
               </p>
               <br></br>
               <p>
               
-              Dette tilbudet inkluderer opplevelse som den er til fullpris, med full fotograferingstid,
-              planlegging av seanse i forkant, og etterarbeid i photoshop. Book
-              enkelt din fotografering her, eller kontakt meg for mer
-              informasjon om opplevelsen.   {" "}
+              Du får den samme gjennomarbeidede fotograferingsopplevelsen som ved ordinær pris, med full fotograferingstid, personlig planlegging i forkant og nøye etterarbeid i Photoshop. Book din fotografering enkelt her, eller ta kontakt dersom du ønsker mer informasjon om opplevelsen. Introduksjonstilbudet gjelder frem til 01.03.2027.{" "}
               </p>
             
               <br></br>
-              <p>Om du er interessert i å se full prisliste på fotografering og produkter finner du det her.   {" "}
+              <p>Om du er interessert i å se full prisliste på fotografering og produkter finner du den her.{" "}
               </p>
 
              

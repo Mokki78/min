@@ -5,7 +5,7 @@ export default function Beautiful() {
         <>
         <section className="quote-section banner">
         <div>
-            <p>Be your own kind of beautiful</p>
+            <h6 id="text-beautiful">Be your own kind of beautiful</h6>
 
         </div>
         </section>
