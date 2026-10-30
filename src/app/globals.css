@@ -50,7 +50,7 @@
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 45px;
+  font-size: 30px;
   font-style: bold;
   color: #452e1f;
 }
@@ -59,26 +59,26 @@ h2 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: bold;
-  font-size: 35px;
+  font-size: 25px;
   color: #9b8c82;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
   font-style: normal;
-  font-size: 25px;
+  font-size: 20px;
   color: #9b8c82;
 }
 
 h4 {
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #452e1f;
 }
 
@@ -98,7 +98,7 @@ nav {
   justify-content: end;
   top: 70px;
   right: 100px;
-  color: #707070;
+  color: #452e1f;
 }
 
 .nav-item {
@@ -222,7 +222,7 @@ nav {
 
 .booking-button {
   padding: 15px 50px;
-  border: 0.5px solid #9b8c82;
+  border: 1px solid #9b8c82;
   font-family: "Playfair Display", serif;
   font: 20px;
   position: absolute;
@@ -233,7 +233,7 @@ nav {
 }
 
 .booking-button:hover {
-  border: 1px solid #9b8c82;
+  border: 2px solid #9b8c82;
 }
 
 .galleryRow {
@@ -264,10 +264,20 @@ nav {
   margin-top: 200px;
   margin-bottom: 100px;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#quote-text {
+  color: white;
+  font-size: 50px;
+}
+
+#text-beautiful {
+  color: white;
+  font-size: 50px;
 }
 
 .sub-headline {
@@ -275,8 +285,9 @@ nav {
 }
 
 .sub-header {
-  font-size: 40px;
-  padding: 100px;
+  font-size: 25px;
+  padding: 10px;
+
 }
 
 .second-button {
