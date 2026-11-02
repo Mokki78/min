@@ -6,14 +6,9 @@ export default function HeroPriser() {
         <div className="hero-text">
           <h1>Priser</h1>
           <h3>
-            I prislisten finner du både à la carte-alternativer og nøye
-            sammensatte kolleksjoner. Du står fritt til å velge det som passer
-            best for deg og dine ønsker. Du trenger ikke å ta stilling til
-            hvilke bilder eller produkter du ønsker før bildene er ferdig
-            redigert og klare for visning. Da får du muligheten til å se det
-            endelige resultatet før du bestemmer deg, slik at du kan velge de
-            produktene som best fremhever minnene og øyeblikkene du ønsker å ta
-            vare på.
+          Jeg tilbyr nøye utvalgte fotoprodukter av høy kvalitet, fra eksklusive fine art-print til håndlagde bildekolleksjoner og tidløse veggprodukter. Hvert produkt er valgt med omtanke for å bevare og presentere fotografiene best måte. 
+
+
           </h3>
         </div>
         <img
