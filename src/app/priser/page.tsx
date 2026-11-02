@@ -1,19 +1,19 @@
 import Header from "../komponenter/Header";
 import HeroPriser from "../komponenter/Hero_priser";
 import Footer from "../komponenter/Footer";
+import Trekkspill from "../komponenter/Trekkspill";
+import Produkt2 from "../komponenter/Produkt_2"
+
 
 export default function Priser() {
   return (
     <>
       <Header />
-     <HeroPriser />
-     <section className="quote-section">
-            <div>
-              <h2>De små øyeblikkene du aldri har lyst til å glemme, </h2>
-              <h2>samlet i en album eller som din egen kunst på veggen.  </h2>
-                
-            </div>
-        </section>
+     
+        <Trekkspill />
+        <Produkt2 />
+       
+        
         <Footer />
     </>
   );
