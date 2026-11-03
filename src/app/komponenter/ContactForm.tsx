@@ -56,7 +56,7 @@ export default function ContactForm() {
 
   return (
     <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
-      <h2>Kontakt meg</h2>
+      <h3>Kontakt meg</h3>
 
       {/* NAVN */}
       <div className="form-group mb-4">
