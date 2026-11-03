@@ -1,3 +1,5 @@
+import ContactForm from "./ContactForm";
+
 export default function HeroKontakt() {
   return (
     <>
@@ -16,10 +18,8 @@ export default function HeroKontakt() {
             Jeg gleder meg til å høre fra deg!
           </h3>
         </div>
-        <img
-          src="../nyfødtfotograf_babyfotografering_barnefotograf_familiebilder_sandefjord_larvik_drammen_tønsberg_porsgrunn_2.jpg"
-          className="hero-img"
-        />
+        <ContactForm />
+      
       </section>
       <section>
         <div className="contact-line"></div>
