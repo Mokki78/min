@@ -85,7 +85,7 @@ p {
 .header-top {
   display: flex;
   align-items: center;
-  margin: 50px;
+  margin: 60px;
 }
 
 nav {
@@ -129,7 +129,7 @@ nav {
 }
 
 .logo {
-  height: 100px;
+  height: 80px;
 }
 
 .banner-image {
@@ -280,11 +280,9 @@ nav {
   font-size: 50px;
 }
 
-
 .sub-header {
   font-size: 25px;
   padding: 10px;
-
 }
 
 .second-button {
@@ -332,7 +330,7 @@ nav {
 
 .form-group {
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   border: rgba(155, 140, 130, 0.6);
 }
